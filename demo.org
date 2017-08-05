@@ -11,8 +11,8 @@
 #+REVEAL_ROOT: ./reveal.js
 # +REVEAL_MARGIN: 0
 #+REVEAL_TITLE_SLIDE_BACKGROUND: ./temp1.png
-#+REVEAL_MIN_SCALE: 0.5
-#+REVEAL_MAX_SCALE: 2.5
+#+REVEAL_MIN_SCALE: 0
+#+REVEAL_MAX_SCALE: 0
 #+REVEAL_TRANS: slide
 #+REVEAL_THEME: telxsi
 # +REVEAL_HLEVEL: 999
@@ -24,14 +24,12 @@
 * Google Voice Assistant
   :PROPERTIES:
   :reveal_background: ./temp4.png
-  :reveal_background_size: 30cm
-  :reveal_background_trans: fade
+  :reveal_background_trans: none
   :END:
 ** Android
   :PROPERTIES:
-  :reveal_background: ./temp3.png
-  :reveal_background_size: 30cm
-  :reveal_background_trans: fade
+  :reveal_background: ./temp4.png
+  :reveal_background_trans: none
   :END:
    - Recognizes voice and creates *Android Intents*
    - Apps receive these intents and perform requested actions
@@ -43,15 +41,13 @@
 * Wit.ai
   :PROPERTIES:
   :reveal_background: ./temp4.png
-  :reveal_background_size: 30cm
-  :reveal_background_trans: fade
+  :reveal_background_trans: none
   :END:
 
 ** Support for
   :PROPERTIES:
-  :reveal_background: ./temp3.png
-  :reveal_background_size: 30cm
-  :reveal_background_trans: fade
+  :reveal_background: ./temp4.png
+  :reveal_background_trans: none
   :END:
    - Javascript
    - Ruby
@@ -61,8 +57,7 @@
 * 
   :PROPERTIES:
   :reveal_background: ./temp5.png
-  :reveal_background_size: 30cm
-  :reveal_background_trans: fade
+  :reveal_background_trans: none
   :END:
 
 

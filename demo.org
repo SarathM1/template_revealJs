@@ -1,0 +1,48 @@
+#+Title: Voice Assistant API's
+#+Author: TAG
+# +Email: yjwen.ty@gmail.com
+
+#+OPTIONS: reveal_center:t reveal_progress:t reveal_history:nil reveal_control:nil
+#+OPTIONS: reveal_rolling_links:t reveal_keyboard:t reveal_overview:t 
+#+OPTIONS: reveal_width:1200 reveal_height:800
+#+OPTIONS: toc:nil num:nil timestamp:nil
+#+OPTIONS:  reveal_slide_number:nil
+#+OPTIONS:  reveal_single_file:t
+#+REVEAL_ROOT: ./reveal.js
+#+REVEAL_MARGIN: 0
+#+REVEAL_TITLE_SLIDE_BACKGROUND: ./temp1.png
+# +REVEAL_MIN_SCALE: 0.5
+# +REVEAL_MAX_SCALE: 2.5
+# +REVEAL_TRANS: cube
+#+REVEAL_THEME: white
+# +REVEAL_HLEVEL: 999
+# +REVEAL_HEAD_PREAMBLE: <meta name="description" content="Org-Reveal Introduction.">
+# +REVEAL_POSTAMBLE: <p> Created by yjwen. </p>
+#+REVEAL_PLUGINS: (highlight)
+# +reveal_slide_number:h/v
+
+* Google Voice Assistant
+
+** Android
+   :PROPERTIES:
+   :reveal_background: ./temp3.png
+   :reveal_background_size: 30cm
+   :reveal_background_trans: slide
+   :END:
+   - Recognizes voice and creates *Android Intents*
+   - Apps receive these intents and perform requested actions
+   - Steps
+     1. Define an intent filter
+     2. Handle the intent in your App
+     3. Update your App completion status
+
+* Wit.ai
+
+** Support for
+   - Javascript
+   - Ruby
+   - Python
+   - Bash
+ 
+
+

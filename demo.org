@@ -2,12 +2,13 @@
 #+Author: TAG
 # +Email: yjwen.ty@gmail.com
 
-#+OPTIONS: reveal_center:t reveal_progress:t reveal_history:nil reveal_control:nil
+#+OPTIONS: reveal_center:t reveal_progress:t reveal_history:nil 
+# +OPTIONS: reveal_control:nil
 #+OPTIONS: reveal_rolling_links:t reveal_keyboard:t reveal_overview:t 
 #+OPTIONS: reveal_width:1200 reveal_height:800
 #+OPTIONS: toc:nil num:nil timestamp:nil
 #+OPTIONS:  reveal_slide_number:nil
-# +OPTIONS:  reveal_single_file:t
+#+OPTIONS:  reveal_single_file:t
 #+REVEAL_ROOT: ./reveal.js
 # +REVEAL_MARGIN: 0
 #+REVEAL_TITLE_SLIDE_BACKGROUND: ./temp1.png
@@ -21,43 +22,62 @@
 #+REVEAL_PLUGINS: (highlight)
 # +reveal_slide_number:h/v
 
-* Google Voice Assistant
-  :PROPERTIES:
-  :reveal_background: ./temp4.png
-  :reveal_background_trans: none
-  :END:
-** Android
-  :PROPERTIES:
-  :reveal_background: ./temp4.png
-  :reveal_background_trans: none
-  :END:
-   - Recognizes voice and creates *Android Intents*
-   - Apps receive these intents and perform requested actions
-   - Steps
-     1. Define an intent filter
-     2. Handle the intent in your App
-     3. Update your App completion status
-
-* Wit.ai
+* Reveal.js and Org-Reveal
   :PROPERTIES:
   :reveal_background: ./temp4.png
   :reveal_background_trans: none
   :END:
 
-** Support for
+  - *Reveal.js* is a tool for creating good-looking HTML presentations,
+    authored by [[http://hakim.se/][Hakim El Hattab]]. \\
+    For an example of a reveal.js presentation, see [[http://lab.hakim.se/reveal-js/#/][here]].
+  - *Org-Reveal* exports your [[http://orgmode.org/][Org]] documents to reveal.js
+    presentations.\\
+    With Org-reveal, you can create beautiful presentations with 3D
+    effects from simple but powerful Org contents.
+
+* Requirements and Installation
   :PROPERTIES:
   :reveal_background: ./temp4.png
   :reveal_background_trans: none
   :END:
-   - Javascript
-   - Ruby
-   - Python
-   - Bash
- 
+
+  - Reveal.js.
+  - Org-mode.
+  - ox-reveal.el.
+  - htmlize.el (optional, for syntax highlighting).
+  - And, of course, emacs.
+
+** Install Reveal.js
+  :PROPERTIES:
+  :reveal_background: ./temp4.png
+  :reveal_background_trans: none
+  :END:
+
+   Download Reveal.js packages from [[https://github.com/hakimel/reveal.js/][here]].
+
+   Extract Reveal.js folders from the downloaded zip file.
+
+   If you do not wish to download reveal.js yourself and would rather get a copy from a CDN,
+   see the section [[https://github.com/yjwen/org-reveal#set-the-location-of-revealjs][Set the location of Reveal.js]]
+
+** Install org-reveal from MELPA
+  :PROPERTIES:
+  :reveal_background: ./temp4.png
+  :reveal_background_trans: none
+  :END:
+
+   The easiest way to install org-reveal is to install package
+   ox-reveal from MELPA.
+
+   Please refer to [[http://melpa.org/#/getting-started]] for using MELPA.
+
+   *Note*: It is suggested to use the [[http://orgmode.org/elpa.html][Org ELPA]] archive in pair
+   with the ox-reveal packages. Emacs builtin Org-mode package may be
+   out of date for MELPA's ox-reveal.
+
 * 
   :PROPERTIES:
   :reveal_background: ./temp5.png
   :reveal_background_trans: none
   :END:
-
-

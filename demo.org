@@ -1,5 +1,5 @@
-#+Title: Deep Learning
-#+Author: TAG
+#+Title: Title
+#+Author: Author
 # +Email: yjwen.ty@gmail.com
 
 #+OPTIONS: reveal_center:t reveal_progress:t reveal_history:nil 

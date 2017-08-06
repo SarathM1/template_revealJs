@@ -1,5 +1,5 @@
-#+Title: Deep Learning
-#+Author: TAG
+#+Title: Reveal.js 
+#+Author: org-reveal
 # +Email: yjwen.ty@gmail.com
 
 #+OPTIONS: reveal_center:t reveal_progress:t reveal_history:nil 
@@ -23,7 +23,7 @@
 # +reveal_slide_number:h/v
 # +REVEAL_EXTRA_JS: ./reveal.js/telxsi.js
 
-* Machine Learning
+* Reveal.js and Org-Reveal
   :PROPERTIES:
   :reveal_background: ./temp4.png
   :reveal_background_trans: none
@@ -33,27 +33,33 @@
     :reveal_background: ./temp4.png
     :reveal_background_trans: none
     :END:
-  - Algorithms which gives computers the ability to learn without being
-    explicitly programmed
-  - Examples
-    + Dimensionality Reduction Algorithms
-    + K-Means filtering
-* Neural Networks
+  - *Reveal.js* is a tool for creating good-looking HTML presentations,
+    authored by [[http://hakim.se/][Hakim El Hattab]]. \\
+    For an example of a reveal.js presentation, see [[http://lab.hakim.se/reveal-js/#/][here]].
+  - *Org-Reveal* exports your [[http://orgmode.org/][Org]] documents to reveal.js
+    presentations.\\
+    With Org-reveal, you can create beautiful presentations with 3D
+    effects from simple but powerful Org contents.
+
+* Requirements and Installation
   :PROPERTIES:
   :reveal_background: ./temp4.png
   :reveal_background_trans: none
   :END:
-**  Perceptron
+**  Dependencies
     :PROPERTIES:
     :reveal_background: ./temp4.png
     :reveal_background_trans: none
     :END:
     #+REVEAL_HTML: <div class="column" style="float:left; width: 50%">
-    - Output is linear
-    - Small changes in weight's and biases may lead to large change in o/p of nw
+    - Reveal.js.
+    - Org-mode.
+    - ox-reveal.el.
+    - htmlize.el (optional, for syntax highlighting).
+    - And, of course, emacs.
     #+REVEAL_HTML: </div>
     #+REVEAL_HTML: <div class="column" style="float:right; width: 50%">
-    [[./images/perceptron.png]]
+    [[./images/org.png]]
     #+REVEAL_HTML: </div>
 * Requirements and Installation
   :PROPERTIES:

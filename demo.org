@@ -1,5 +1,5 @@
-#+Title: Title
-#+Author: Author
+#+Title: Deep Learning
+#+Author: TAG
 # +Email: yjwen.ty@gmail.com
 
 #+OPTIONS: reveal_center:t reveal_progress:t reveal_history:nil 
@@ -8,7 +8,7 @@
 #+OPTIONS: reveal_width:1200 reveal_height:800
 #+OPTIONS: toc:nil num:nil timestamp:nil
 #+OPTIONS:  reveal_slide_number:nil
-#+OPTIONS:  reveal_single_file:t
+# +OPTIONS:  reveal_single_file:t
 #+REVEAL_ROOT: ./reveal.js
 # +REVEAL_MARGIN: 0
 #+REVEAL_TITLE_SLIDE_BACKGROUND: ./temp1.png
@@ -21,21 +21,40 @@
 # +REVEAL_POSTAMBLE: <p> Created by yjwen. </p>
 #+REVEAL_PLUGINS: (highlight)
 # +reveal_slide_number:h/v
+# +REVEAL_EXTRA_JS: ./reveal.js/telxsi.js
 
-* Reveal.js and Org-Reveal
+* Machine Learning
   :PROPERTIES:
   :reveal_background: ./temp4.png
   :reveal_background_trans: none
   :END:
-
-  - *Reveal.js* is a tool for creating good-looking HTML presentations,
-    authored by [[http://hakim.se/][Hakim El Hattab]]. \\
-    For an example of a reveal.js presentation, see [[http://lab.hakim.se/reveal-js/#/][here]].
-  - *Org-Reveal* exports your [[http://orgmode.org/][Org]] documents to reveal.js
-    presentations.\\
-    With Org-reveal, you can create beautiful presentations with 3D
-    effects from simple but powerful Org contents.
-
+**  Introduction
+    :PROPERTIES:
+    :reveal_background: ./temp4.png
+    :reveal_background_trans: none
+    :END:
+  - Algorithms which gives computers the ability to learn without being
+    explicitly programmed
+  - Examples
+    + Dimensionality Reduction Algorithms
+    + K-Means filtering
+* Neural Networks
+  :PROPERTIES:
+  :reveal_background: ./temp4.png
+  :reveal_background_trans: none
+  :END:
+**  Perceptron
+    :PROPERTIES:
+    :reveal_background: ./temp4.png
+    :reveal_background_trans: none
+    :END:
+    #+REVEAL_HTML: <div class="column" style="float:left; width: 50%">
+    - Output is linear
+    - Small changes in weight's and biases may lead to large change in o/p of nw
+    #+REVEAL_HTML: </div>
+    #+REVEAL_HTML: <div class="column" style="float:right; width: 50%">
+    [[./images/perceptron.png]]
+    #+REVEAL_HTML: </div>
 * Requirements and Installation
   :PROPERTIES:
   :reveal_background: ./temp4.png
